@@ -56,3 +56,21 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* ===== LIGHT (White / Red) ===== */
+:root[data-theme="light"] {
+  --bg: #ffffff;
+  --surface: #f5f5f5;
+  --text: #111111;
+  --primary: #e10600;
+  --card: #ffffff;
+}
+
+/* ===== DARK (F1 Red / Black) ===== */
+:root[data-theme="dark"] {
+  --bg: #0b0b0b;
+  --surface: #161616;
+  --text: #ffffff;
+  --primary: #e10600;
+  --card: #1c1c1c;
+}

@@ -9,8 +9,9 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <>
-      <div className=" bg-gray-900">
-
+      <div
+        className=" bg-gray-900 bg-[var(--bg)] text-[var(--text)] bg-[var(--primary)]"
+      >
         <main className="">
           <Routes>
             <Route path="/" element={<Home />} />
