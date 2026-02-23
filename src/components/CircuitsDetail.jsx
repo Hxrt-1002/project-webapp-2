@@ -36,7 +36,6 @@ const CircuitsDetail = () => {
   return (
     <div className="min-h-screen bg-black text-white">
 
-      {/* HERO */}
       <div className="relative h-[450px] md:h-[550px] overflow-hidden">
         <img
           src={selectedCircuit.image}
@@ -60,7 +59,6 @@ const CircuitsDetail = () => {
         </div>
       </div>
 
-      {/* DETAILS */}
       <div className="max-w-6xl mx-auto px-6 py-16">
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
@@ -103,12 +101,6 @@ const CircuitsDetail = () => {
 
         </div>
 
-        <h2 className="text-3xl font-bold mb-6">
-            Track Layout
-          </h2>
-        <img src={circuit.layoutImage} alt="Track Layout" />
-
-        {/* MAP SECTION */}
         <div>
           <h2 className="text-3xl font-bold mb-6">
             📍 Location Map
