@@ -103,6 +103,11 @@ const CircuitsDetail = () => {
 
         </div>
 
+        <h2 className="text-3xl font-bold mb-6">
+            Track Layout
+          </h2>
+        <img src={circuit.layoutImage} alt="Track Layout" />
+
         {/* MAP SECTION */}
         <div>
           <h2 className="text-3xl font-bold mb-6">

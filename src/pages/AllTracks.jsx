@@ -35,9 +35,9 @@ const AllTracks = () => {
     <>
       <Header />
 
-      <div className="min-h-screen text-white">
+      <div className="min-h-screen text-white pt-34">
         {/* Hero Section */}
-        <div className="pt-32 px-8 pb-16 border-b-2 border-red-600">
+        <div className=" px-8 pb-16 border-b-2 border-red-600">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-6xl font-black mb-4 tracking-tight">
               <span className="text-red-600">APEX</span> CIRCUITS

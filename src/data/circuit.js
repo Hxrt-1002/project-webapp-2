@@ -8,7 +8,8 @@ const circuit = [
     lng: 144.9680,
     length: "5.278 km",
     corners: 14,
-    image: "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/fom-website/campaign/support-promoter/australia/FAQ%2025%20SD_2024_Australia_Helicopter_200%20169.webp"
+    image: "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/fom-website/campaign/support-promoter/australia/FAQ%2025%20SD_2024_Australia_Helicopter_200%20169.webp",
+    layoutImage: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Albert_Park_Circuit_2021.svg"
   },
   {
     id: 2,
@@ -63,7 +64,7 @@ const circuit = [
     lng: -80.2389,
     length: "5.412 km",
     corners: 19,
-    image: "https://i.guim.co.uk/img/media/e41ae45b9052bacc212628bceba21976a1e7986e/0_344_5161_3097/master/5161.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=b37d54d89f91d6c0b435f6723b38e506"
+    image: "https://media.formula1.com/image/upload/t_16by9South/c_lfill,w_3392/q_auto/v1740000000/trackside-images/2024/F1_Grand_Prix_of_Miami/2151619470.webp"
   },
   {
     id: 7,
@@ -74,7 +75,7 @@ const circuit = [
     lng: -73.5262,
     length: "4.361 km",
     corners: 14,
-    image: "https://i.redd.it/le-circuit-gilles-villeneuve-dans-la-prochaine-mise-%C3%A0-jour-v0-gwu123la77rf1.jpg?width=1920&format=pjpg&auto=webp&s=514f6d4b378863270cea9fd167952f1d93e479d5"
+    image: "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Canada.webp"
   },
   {
     id: 8,
@@ -85,7 +86,7 @@ const circuit = [
     lng: 7.4206,
     length: "3.337 km",
     corners: 19,
-    image: "https://gpdestinations.com/wp-content/uploads/2025/06/2025_Monaco_GP_F1Destinations.com_F1_FP2_02338-1024x683.jpg"
+    image: "https://media.formula1.com/image/upload/f_auto/q_auto/v1731515120/fom-website/2024/Miscellaneous/monaco-2024-start-2.png"
   },
   {
     id: 9,
@@ -96,7 +97,7 @@ const circuit = [
     lng: 2.261,
     length: "4.657 km",
     corners: 14,
-    image: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdDuo_U8ojAc4Yz8ElS8hheXxNW4YlE-CLQhWUdQBgd_Y4lSJ2rtFDMu4YvcsITucHIRolcQyCaCSis-QXl5Z7KwiBXqKHEieP-dlPBVh9pfzuLB4BS384wc4YOCuiGep79Jtj_A=s680-w680-h510-rw"
+    image: "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/content/dam/fom-website/sutton/2021/Spain/Sunday/1317453894.webp"
   },
   {
     id: 10,
@@ -107,7 +108,7 @@ const circuit = [
     lng: 15.7406,
     length: "4.318 km",
     corners: 10,
-    image: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDCRibV1HH3QfGmut5kogSTJodikWMA2Gtd9Rsft15T6fyLdiDN0FbF16u-e-VZ2-NMiZZ66wpLAEfy2ojSHrP0DmWTlWz21omFUgnoGY-pVJFJQXP4D52L6jdu9Zg6BPC_kvJ=s680-w680-h510-rw"
+    image: "https://www.redbullring.com/en/wp-content/uploads/sites/1/2022/07/PP_220709_F1_Red_Bull_Ring_1633.jpg"
   },
   {
     id: 11,
@@ -184,7 +185,7 @@ const circuit = [
     lng: 49.8530,
     length: "6.003 km",
     corners: 20,
-    image: "/images/circuits/baku.jpg"
+    image: "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Azerbaijan.webp"
   },
   {
     id: 18,
@@ -195,7 +196,7 @@ const circuit = [
     lng: 103.8630,
     length: "4.94 km",
     corners: 19,
-    image: "/images/circuits/singapore.jpg"
+    image: "https://media.formula1.com/image/upload/t_16by9Centre/c_lfill,w_3392/q_auto/v1740000000/fom-website/2023/Singapore/GettyImages-1682522763.webp"
   },
   {
     id: 19,
@@ -217,7 +218,7 @@ const circuit = [
     lng: -99.1019,
     length: "4.304 km",
     corners: 17,
-    image: "/images/circuits/mexico.jpg"
+    image: "https://media.formula1.com/image/upload/t_16by9South/c_lfill,w_3392/q_auto/v1740000000/trackside-images/2023/F1_Grand_Prix_of_Mexico/1763741495.webp"
   },
   {
     id: 21,
@@ -228,7 +229,7 @@ const circuit = [
     lng: -46.6997,
     length: "4.309 km",
     corners: 15,
-    image: "/images/circuits/interlagos.jpg"
+    image: "https://media.formula1.com/image/upload/t_16by9South/c_lfill,w_3392/q_auto/v1740000000/trackside-images/2023/F1_Grand_Prix_of_Brazil/1776732354.webp"
   },
   {
     id: 22,
@@ -239,7 +240,7 @@ const circuit = [
     lng: -115.1683,
     length: "6.201 km",
     corners: 17,
-    image: "/images/circuits/las-vegas.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA5uHbepWWsolL96VbSf0gmRMfSG-HvJx3dQ&s"
   },
   {
     id: 23,
@@ -250,7 +251,7 @@ const circuit = [
     lng: 51.4880,
     length: "5.380 km",
     corners: 16,
-    image: "/images/circuits/losail.jpg"
+    image: "https://media.formula1.com/image/upload/t_16by9South/c_lfill,w_3392/q_auto/v1740000000/trackside-images/2023/F1_Grand_Prix_of_Qatar/1724642459.webp"
   },
   {
     id: 24,
@@ -261,7 +262,7 @@ const circuit = [
     lng: 54.6011,
     length: "5.281 km",
     corners: 16,
-    image: "/images/circuits/yas-marina.jpg"
+    image: "https://mma.prnasia.com/media2/2623130/Abu_Dhabi_Grand_Prix.jpg?p=publish"
   }
 ]
 

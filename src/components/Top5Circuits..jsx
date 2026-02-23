@@ -59,7 +59,7 @@ const Top5Circuits = () => {
           {/* Content */}
           <div className="relative z-30 flex items-center justify-start h-full px-6 sm:px-10 md:px-16 lg:px-20 max-w-5xl">
 
-            <div>
+            <div className='ps-15'>
               {/* Top Badge */}
               <div className="inline-block bg-red-600 px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-bold tracking-widest rounded-md shadow-lg">
                 🏆 TOP 5 MOST CORNERS

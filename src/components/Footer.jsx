@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
-            <div className="min-h-screen flex flex-col">
+            <div className="flex flex-col">
 
                 <main className="flex-1">
                     <Outlet />
