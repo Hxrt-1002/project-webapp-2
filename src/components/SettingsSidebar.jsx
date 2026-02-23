@@ -11,15 +11,6 @@ const SettingsSidebar = ({ active, setActive }) => {
       </h2>
 
       <button
-        onClick={() => setActive("theme")}
-        className={`p-4 text-left hover:bg-red-600 transition ${
-          active === "theme" ? "bg-red-700" : ""
-        }`}
-      >
-        Theme
-      </button>
-
-      <button
         onClick={() => setActive("account")}
         className={`p-4 text-left hover:bg-red-600 transition ${
           active === "account" ? "bg-red-700" : ""

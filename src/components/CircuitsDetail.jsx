@@ -25,8 +25,8 @@ const CircuitsDetail = () => {
 
   if (!selectedCircuit) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--bg)] text-[var(--primary)]">
-        <h1 className="text-2xl font-bold">
+      <div className="min-h-screen bg-black flex items-center justify-center">
+        <h1 className="text-red-600 text-2xl font-bold">
           Circuit Not Found
         </h1>
       </div>
@@ -34,7 +34,7 @@ const CircuitsDetail = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[var(--bg)] text-[var(--text)] transition-colors duration-300">
+    <div className="min-h-screen bg-black text-white">
 
       {/* HERO */}
       <div className="relative h-[450px] md:h-[550px] overflow-hidden">
@@ -43,21 +43,20 @@ const CircuitsDetail = () => {
           alt={selectedCircuit.name}
           className="w-full h-full object-cover"
         />
-
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
 
         <button
           onClick={() => navigate(-1)}
-          className="absolute top-6 left-6 bg-[var(--primary)] hover:opacity-90 text-white px-6 py-2 rounded-full transition duration-300 shadow-lg"
+          className="absolute top-6 left-6 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full transition-all duration-300 shadow-lg"
         >
           ← Back
         </button>
 
         <div className="absolute bottom-12 left-12">
-          <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-wide">
+          <h1 className="text-4xl md:text-6xl font-extrabold">
             {selectedCircuit.name}
           </h1>
-          <div className="w-24 h-1 bg-[var(--primary)] mt-4"></div>
+          <div className="w-24 h-1 bg-red-600 mt-4"></div>
         </div>
       </div>
 
@@ -66,46 +65,56 @@ const CircuitsDetail = () => {
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
 
-          {[
-            { label: "Country", value: selectedCircuit.country },
-            { label: "Continent", value: selectedCircuit.continent },
-            { label: "Circuit Length", value: selectedCircuit.length },
-            { label: "Corners", value: `${selectedCircuit.corners} Turns` },
-          ].map((item, index) => (
-            <div
-              key={index}
-              className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-[var(--primary)]"
-            >
-              <h2 className="text-xl font-bold text-[var(--primary)] mb-2 uppercase tracking-wider">
-                {item.label}
-              </h2>
-              <p className="text-lg">
-                {item.value}
-              </p>
-            </div>
-          ))}
+          <div>
+            <h2 className="text-2xl font-bold text-red-600 mb-4">
+              Country
+            </h2>
+            <p className="text-gray-300 text-lg">
+              {selectedCircuit.country}
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-red-600 mb-4">
+              Continent
+            </h2>
+            <p className="text-gray-300 text-lg">
+              {selectedCircuit.continent}
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-red-600 mb-4">
+              Circuit Length
+            </h2>
+            <p className="text-gray-300 text-lg">
+              {selectedCircuit.length}
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-red-600 mb-4">
+              Corners
+            </h2>
+            <p className="text-gray-300 text-lg">
+              {selectedCircuit.corners} Turns
+            </p>
+          </div>
 
         </div>
 
-        {/* Track Layout */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 uppercase tracking-wide">
+        <h2 className="text-3xl font-bold mb-6">
             Track Layout
           </h2>
-          <img
-            src={selectedCircuit.layoutImage}
-            alt="Track Layout"
-            className="rounded-xl shadow-xl border border-gray-700"
-          />
-        </div>
+        <img src={circuit.layoutImage} alt="Track Layout" />
 
         {/* MAP SECTION */}
         <div>
-          <h2 className="text-3xl font-bold mb-6 uppercase tracking-wide">
+          <h2 className="text-3xl font-bold mb-6">
             📍 Location Map
           </h2>
 
-          <div className="h-[400px] rounded-xl overflow-hidden border border-gray-700 shadow-xl">
+          <div className="h-[400px] rounded-xl overflow-hidden border border-gray-800">
             <MapContainer
               center={[selectedCircuit.lat, selectedCircuit.lng]}
               zoom={13}
